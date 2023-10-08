@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Corben', cursive;
+   font-family: 'Young Serif', serif;
+	background-color: rgb(237, 245, 242);
+}
+h2{
+	margin-top: 20px;
+	text-align: center;
+}
+.clear_btn{
+	margin-top: 20px;
+}
+.clear_btn {
+   display: inline-block;
+	width: 70px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	background-color: aqua;
+	color: rgb(135, 113, 85);
+}
+.chat {
+   display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px;
+}
+.chat_window{
+	height: 300px;
+	border: 2px solid red;
+	width: 200px;
+	overflow-y: auto;
+	border-radius: 25px;
+	box-sizing: border-box;
+	padding: 20px;
+}
